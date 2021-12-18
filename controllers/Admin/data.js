@@ -8,7 +8,7 @@ module.exports = {
   users: [
     { id: 1, name: 'Kyle', role: ROLE.ADMIN },
     { id: 2, name: 'Sally', role: ROLE.BASIC },
-    { id: 3, name: 'Joe', role: ROLE.BASIC }
+    { id: 3, name: 'Joel', role: ROLE.BASIC }
   ],
   transfers: [
     { id: 1, name: "Kyle's transfer", userId: 1 },
