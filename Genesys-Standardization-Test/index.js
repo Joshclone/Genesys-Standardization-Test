@@ -40,7 +40,10 @@ function setUser(req, res, next) {
   }
   next();
 }
+//CRuD operation handlers for the bank transactions details
+const postsRoute = require('./routes/posts');
 
+app.use('/api/posts', postsRoute);
 
 mongoose
   .connect(dbConfig)
